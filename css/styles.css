@@ -1,0 +1,167 @@
+body {
+  font-size: 16px;
+  color: #fff;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: purple;
+  border-radius: 0;
+  border: 0;
+}
+
+#hn1 {
+  background-color: purple;
+  border-radius: 0;
+  border: 0;
+  height: 100px;
+}
+
+
+.navbar-brand {
+  padding-top: center;
+}
+
+.navbar-brand h1 { 
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: center;
+  margin-bottom: center;
+  
+}
+
+
+#nav-list {
+  margin-top: center;
+}
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: black;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -45px;
+}
+/* END HEADER */
+
+.titulo {
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  
+}
+
+
+
+.parrafo {
+  border: 1px solid black;
+  background-color: gray;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  
+}
+
+.content{
+  width: 90%;
+  height: auto;
+  margin: 2.5%;
+  color: black
+  font-size: 25px;
+
+}
+
+
+
+.h11 {
+  text-align: center;
+  
+ 
+}
+
+
+.h1 {
+  text-align: center;
+ 
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 5vw; 
+  }
+
+  #collapsable-nav a { 
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+}
+
+
+
